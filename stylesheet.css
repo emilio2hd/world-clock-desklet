@@ -1,0 +1,42 @@
+/* https://gjs.guide/extensions/overview/anatomy.html#stylesheet-css */
+
+.world-clock-container {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.world-clock-container .time-zone-clock,
+.world-clock-container .time-zone-clock-error {
+  font-size: 13pt;
+  border: 1px solid rgba(21, 21, 21, 0.6);
+  margin: 5px 0px;
+  background-color: rgba(76, 76, 76, 0.2);
+  padding: 5px;
+}
+
+.world-clock-container .time-zone-clock-error {
+  background-color: rgb(255, 61, 50);
+}
+
+.world-clock-container .time-zone-clock-error .error-label {
+  text-align: center;
+}
+
+.world-clock-container .time-zone-clock .dst {
+  font-size: 9pt;
+  padding-right: 2pt;
+}
+
+.world-clock-container .time-zone-clock .clock-footer {
+  font-size: 10pt;
+}
+
+.world-clock-container .time-zone-clock .clock-label {
+  font-size: 40pt;
+}
+
+.world-clock-container .time-zone-clock .clock-label .am-pm {
+  font-size: 13pt;
+  padding-top: 6pt;
+  padding-left: 2pt;
+}

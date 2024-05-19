@@ -1,0 +1,10 @@
+{
+  "uuid": "worldclock@emilio2hd",
+  "name": "World Clock",
+  "description": "World Clock",
+  "icon": "gworldclock",
+  "version": "1.0",
+  "max-instances": "10",
+  "prevent-decorations": false,
+  "shell-version": ["3.36"]
+}

@@ -1,0 +1,41 @@
+{
+  "head0": {
+    "type": "header",
+    "description": "Settings"
+  },
+
+  "time-format": {
+    "type": "combobox",
+    "default": "24_hour",
+    "description": "Time format",
+    "tooltip": "Select if time should be displayed in 24 hour or 12 hour (AM/PM) format",
+    "options": {
+      "24 hours": "24_hours",
+      "12 hours (AM/PM)": "12_hours"
+    }
+  },
+
+  "label-info": {
+    "type": "label",
+    "description": "The time zones can be found on Wikipedia Tz database time zones. Use the value in \"TZ identifier\" column. Ex.: Africa/Abidjan"
+  },
+  "wikipedia-button": {
+    "type": "button",
+    "description": "Press here to go to Wikipedia",
+    "callback": "on_go_to_wikipedia_button_clicked",
+    "tooltip": "Pressing this button will open a wikipedia url to the list of available time zone identifiers."
+  },
+  "timezone-list": {
+    "type": "list",
+    "description": "Display these time zones:",
+    "tooltip": "Add the time zones you wish to see the time on it.",
+    "columns": [
+      {
+        "id": "name",
+        "title": "Time Zone ID",
+        "type": "string"
+      }
+    ],
+    "default": []
+  }
+}
