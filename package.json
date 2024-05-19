@@ -1,0 +1,21 @@
+{
+  "name": "worldclock",
+  "version": "1.0.0",
+  "description": "This is a digital clock desklet that supports multiple clocks based on time zone for the Linux desktop environment Cinnamon (https://github.com/linuxmint/Cinnamon)",
+  "main": "desklet.js",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsdoc": "^48.2.4",
+    "globals": "^15.2.0",
+    "prettier": "^3.2.5"
+  }
+}
