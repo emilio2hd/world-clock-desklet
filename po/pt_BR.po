@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-19 21:14+0100\n"
+"PO-Revision-Date: 2024-05-18 09:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: components/clock-footer.js:34
+msgid "Today"
+msgstr "Hoje"
+
+#: components/clock-footer.js:36
+msgid "Tomorrow"
+msgstr "Amanhã"
+
+#: components/clock-footer.js:39
+msgid "HRS"
+msgstr "HRS"
+
+#: components/clock-head.js:42
+msgid "Daylight Saving Time"
+msgstr "Horário de Verão"
+
+#: components/timezone-clock.js:37
+msgid "Invalid Timezone"
+msgstr "Fuso horário inválido"
+
+#. metadata.json->name
+#. metadata.json->description
+msgid "World Clock"
+msgstr "World Clock"
+
+#. settings-schema.json->head0->description
+msgid "Settings"
+msgstr "Configurações"
+
+#. settings-schema.json->time-format->description
+msgid "Time format"
+msgstr "Formato da Hora"
+
+#. settings-schema.json->time-format->tooltip
+msgid "Select if time should be displayed in 24 hour or 12 hour (AM/PM) format"
+msgstr ""
+"Selecione se a hora deve ser exibida no formato de 24 horas ou 12 horas (AM/"
+"PM)"
+
+#. settings-schema.json->time-format->options
+msgid "24 hours"
+msgstr "24 horas"
+
+#. settings-schema.json->time-format->options
+msgid "12 hours (AM/PM)"
+msgstr "12 horas (AM/PM)"
+
+#. settings-schema.json->label-info->description
+msgid ""
+"The time zones can be found on Wikipedia Tz database time zones. Use the "
+"value in \"TZ identifier\" column. Ex.: Africa/Abidjan"
+msgstr ""
+"Os fusos horários podem ser encontrados na Wikipedia. Use o valor na coluna "
+"\"TZ identifier\". Ex.: Africa/Abidjan"
+
+#. settings-schema.json->wikipedia-button->description
+msgid "Press here to go to Wikipedia"
+msgstr "Clique aqui para ir para a Wikipedia"
+
+#. settings-schema.json->wikipedia-button->tooltip
+msgid ""
+"Pressing this button will open a wikipedia url to the list of available time "
+"zone identifiers."
+msgstr ""
+"Clicando neste botão abrirá uma URL da Wikipedia para a lista dos "
+"identificadores de fuso horário disponíveis."
+
+#. settings-schema.json->timezone-list->description
+msgid "Display these time zones:"
+msgstr "Exibir estes fusos horários:"
+
+#. settings-schema.json->timezone-list->tooltip
+msgid "Add the time zones you wish to see the time on it."
+msgstr "Adicione os fusos horários nos quais deseja ver a hora."
+
+#. settings-schema.json->timezone-list->columns->title
+msgid "Time Zone ID"
+msgstr "ID do Fuso Horário"
