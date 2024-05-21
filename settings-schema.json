@@ -6,7 +6,7 @@
 
   "time-format": {
     "type": "combobox",
-    "default": "24_hour",
+    "default": "24_hours",
     "description": "Time format",
     "tooltip": "Select if time should be displayed in 24 hour or 12 hour (AM/PM) format",
     "options": {
