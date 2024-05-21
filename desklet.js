@@ -60,7 +60,13 @@ class WorldClockDesklet extends Desklet {
 
   _rebuildClocks() {
     this.mainContainer.destroy_all_children();
-    this._getTzIdentifiers().forEach((tzIdentifier) => this._buildTimezoneClock(tzIdentifier));
+    const tzIdenfiers = this._getTzIdentifiers();
+
+    if(!!tzIdenfiers?.length){
+      tzIdenfiers.forEach((tzIdentifier) => this._buildTimezoneClock(tzIdentifier));
+    } else {
+      this._buildNoTimezone();
+    }
   }
 
   /**
@@ -77,6 +83,14 @@ class WorldClockDesklet extends Desklet {
     this.connect(UPDATE_CLOCKS_EVENT, () => timezoneClock.update());
 
     this.mainContainer.add(timezoneClock);
+  }
+
+  _buildNoTimezone() {
+    const clockLabel = new St.BoxLayout({ vertical: true, style_class: 'no-time-zone' });
+
+    clockLabel.add(new St.Label({ text: _('No time zones found') }));
+
+    this.mainContainer.add(clockLabel);
   }
 
   /**
@@ -97,7 +111,7 @@ class WorldClockDesklet extends Desklet {
   }
 
   _getTzIdentifiers() {
-    return this.settings.getValue(TIMEZONE_LIST_UI_ID).map((value) => value.name);
+    return this.settings.getValue(TIMEZONE_LIST_UI_ID).map(({ name }) => name);
   }
 
   on_go_to_wikipedia_button_clicked() {

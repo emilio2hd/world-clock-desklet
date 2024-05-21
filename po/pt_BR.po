@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-19 21:14+0100\n"
-"PO-Revision-Date: 2024-05-18 09:38+0100\n"
+"POT-Creation-Date: 2024-05-21 09:35+0100\n"
+"PO-Revision-Date: 2024-05-21 09:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: desklet.js:91
+msgid "No time zones found"
+msgstr "Sem fusos horários"
 
 #: components/clock-footer.js:34
 msgid "Today"
