@@ -4,6 +4,14 @@ This is a digital clock desklet that supports multiple clocks based on time zone
 for the Linux desktop environment Cinnamon (https://github.com/linuxmint/Cinnamon).
 ![Screenshot](./screenshot.png)
 
+## Installation
+
+Run:
+```
+git clone https://github.com/emilio2hd/world-clock-desklet ~/.local/share/cinnamon/desklets/worldclock@emilio2hd
+```
+After finishing, you should see the "World Clock" available in the Desklets window.
+
 ## Development
 
 Before starting developing, make sure to run `make dev-prepare` to install libs that are not required, but
